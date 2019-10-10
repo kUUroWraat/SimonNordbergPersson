@@ -1,0 +1,11 @@
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\bin\Debug\netcoreapp2.1\HundRegister.deps.json
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\bin\Debug\netcoreapp2.1\HundRegister.runtimeconfig.json
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\bin\Debug\netcoreapp2.1\HundRegister.runtimeconfig.dev.json
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\bin\Debug\netcoreapp2.1\HundRegister.dll
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\bin\Debug\netcoreapp2.1\HundRegister.pdb
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\obj\Debug\netcoreapp2.1\HundRegister.csprojAssemblyReference.cache
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\obj\Debug\netcoreapp2.1\HundRegister.csproj.CoreCompileInputs.cache
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\obj\Debug\netcoreapp2.1\HundRegister.AssemblyInfoInputs.cache
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\obj\Debug\netcoreapp2.1\HundRegister.AssemblyInfo.cs
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\obj\Debug\netcoreapp2.1\HundRegister.dll
+C:\Users\Simon Nordberg\Documents\GitHub\SimonNordbergPersson\HundRegister\obj\Debug\netcoreapp2.1\HundRegister.pdb
