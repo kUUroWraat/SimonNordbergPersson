@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HundRegister", "HundRegister\HundRegister.csproj", "{02E6B1AB-D21E-4923-97A3-122BFAE9563B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E6B1AB-D21E-4923-97A3-122BFAE9563B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E6B1AB-D21E-4923-97A3-122BFAE9563B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E6B1AB-D21E-4923-97A3-122BFAE9563B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E6B1AB-D21E-4923-97A3-122BFAE9563B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08EB931F-1756-4812-806E-BFF62664DD3E}
+	EndGlobalSection
+EndGlobal
