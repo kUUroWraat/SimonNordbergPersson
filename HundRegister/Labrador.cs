@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * Robin:
+ * onödiga using statements.
+ */
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,6 +14,10 @@ class Labrador : Dog
     {
 
     }
+    /*
+     * Robin:
+     * double taillength = Length - Withers görs 2 gånger.
+     */
     public override double GetAsTailLength()
     {
         double taillength = Length - Withers;

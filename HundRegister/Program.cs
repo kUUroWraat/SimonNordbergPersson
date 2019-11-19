@@ -1,10 +1,18 @@
-﻿using System;
+﻿/*
+ * Robin:
+ * onödiga using statements.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 class Program
 {
     List<Dog> list = new List<Dog>();
+    /*
+     * Robin:
+     * Variabel som inte används.
+     */
     Weiner_Dog f = new Weiner_Dog("Neoidk", 59, 59, 59, "Male", 100, "Weiner_Dog");
 
     static void Main()
@@ -32,6 +40,11 @@ class Program
         }
     }
 
+    /*
+     * Robin:
+     * Tror inte det finns några exceptions som kan hända här, så while loopen och
+     * try-catch satsen är förmodligen onödiga.
+     */
     private string HandleInput(string message, out string input)
     {
         while (true)
@@ -52,7 +65,10 @@ class Program
 
     private void Running()
     {
-
+        /*
+         * Robin:
+         * Boolen run används aldrig, förutom i while(run == true)
+         */
         bool run = true;
 
         while (run == true)
@@ -81,6 +97,12 @@ class Program
             if (input.ToLower() == "!search")
             {
                 Dog dog = Search();
+                /*
+                * Robin:
+                * Hade velat bryta ur allt som finns här till en egen metod för att öka läsbarheten.
+                * Även det som händer när man skriver !Edit och !Remove borde kanske brytas ut till
+                * egna metoder. Metoden är väldigt lång. vilket gör den svår att följa.
+                */
                 if (dog != null)
                 {
                     Console.WriteLine(dog.GetAsString());
@@ -133,6 +155,10 @@ class Program
                                     list[index].weight = weight;
                                     break;
                                 case "breed":
+                                    /*
+                                     * Robin:
+                                     * intressant lösning. Man får dock ingen feedback om man skriver in fel.
+                                     */
                                     HandleInput("What do you want to change it to?", out string breed);
                                     if (breed.ToLower() == "labrador")
                                     {
@@ -156,6 +182,10 @@ class Program
                         {
                             running = false;
                         }
+                        /*
+                         * Robin:
+                         * Även detta borde kunna brytas ut.
+                         */
                         else if (input.ToLower() == "!remove")
                         {
                             int index = 0;
@@ -189,7 +219,15 @@ class Program
         HandleInput("Gender", out string Gender);
 
         Dog dog = null;
-
+        /*
+         * Robin:
+         * Det finns inget som begränsar vad man kan skriva in för kön och ras. Detta leder till en 
+         * rad olika problem, både här och i search. Du hade kanske behövt implementera en metod för
+         * att kontrollera värdet på input så att man inte kan skriva in t.ex. 'schnauser' eller 
+         * 'hund123'. Dessutom så finns det inget som förhindrar att null läggs in i listan om man skriver fel, 
+         * vilket leder till att programmet krashar så fort man försöker skapa en till hund eller
+         * söka efter en hund.
+         */
 
         if (Breed.ToLower() == "labrador")
         {
@@ -300,6 +338,10 @@ class Program
         {
             return SearchDog[0];
         }
+        /*
+         * Robin:
+         * Man skriver in vikten, men metoden kollar mankhöjden.
+         */
         int Weight = HandleInput("Weight: ");
 
         for (int i = SearchDog.Count - 1; i >= 0; i--)
@@ -324,6 +366,24 @@ class Program
 }
 
 
-
+/*
+ * Robin:
+ * Det finns ett par logiska problem som leder till att programmet väldigt lätt krashar. Detta leder 
+ * till att programmet inte är robust, och därmed inte användarvänligt. Det finns inget som säger
+ * till användaren vad det finns för raser, och om man skriver fel så läggs ett null-värde in i 
+ * listan, vilket leder till stora problem. Det finns inte heller några begränsningar gällande kön.
+ * 
+ * Koden i sig hade behövt ses över för att uppnå bättre läsbarhet. Framförallt så hade Running() 
+ * kunnat brytas upp i mindre delar för att göra den läsbar. En tydligare uppdelning hade kanske
+ * hjälp vid felsökning för att lättare identifiera problem. DU hade kanske behövt en extra dag för
+ * att felsöka koden.
+ * 
+ * Koden är i övrigt relativt konsekvent och tydligt namngiven. En extra tanke hade kunnat ägnas åt
+ * att se över var du lägger in tomma rader, då det inte verkar finnas något direkt mönster i hur du 
+ * tänkt där. 
+ * 
+ * Dessa problem gör det svårt att sätta en godkänt överlag, även om den uppnår ett högre betyg
+ * i vissa kunskapskrav.
+ */
 
 
