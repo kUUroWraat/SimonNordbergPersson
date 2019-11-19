@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Simon Nordberg\\.nuget\\packages\\": {},
+    "C:\\Users\\Robin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simon Nordberg\\Documents\\GitHub\\SimonNordbergPersson\\HundRegister\\HundRegister.csproj",
+      "projectUniqueName": "C:\\Users\\Robin\\source\\repos\\PRRPRR02\\Hundregister\\Simon\\HundRegister\\HundRegister.csproj",
       "projectName": "HundRegister",
-      "projectPath": "C:\\Users\\Simon Nordberg\\Documents\\GitHub\\SimonNordbergPersson\\HundRegister\\HundRegister.csproj",
-      "packagesPath": "C:\\Users\\Simon Nordberg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simon Nordberg\\Documents\\GitHub\\SimonNordbergPersson\\HundRegister\\obj\\",
+      "projectPath": "C:\\Users\\Robin\\source\\repos\\PRRPRR02\\Hundregister\\Simon\\HundRegister\\HundRegister.csproj",
+      "packagesPath": "C:\\Users\\Robin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robin\\source\\repos\\PRRPRR02\\Hundregister\\Simon\\HundRegister\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Simon Nordberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

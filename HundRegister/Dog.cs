@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * Robin:
+ * Onödiga using statements.
+ */
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -14,6 +18,10 @@ abstract class Dog : IComparable<Dog>
     protected int Weight;
     protected string Breed;
 
+    /*
+     * Robin:
+     * Varför finns Breed som en variabel här? Är inte subklasserna i sig raserna?
+     */
     public Dog(string Name, int Age, int withers, int Length, string Gender, int Weight, string Breed)
     {
         
